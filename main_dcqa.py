@@ -5,7 +5,7 @@ import os
 import random
 import torch
 from utils import compute_rouges, save_dataset, read_dataset, set_seed, save_model, save_weight
-from model.modeling_dcqa import DCQA
+from model.dcqa import DCQA
 import json
 import argparse
 
