@@ -2,7 +2,7 @@
 from transformers import T5ForConditionalGeneration
 from transformers.file_utils import ModelOutput
 import torch
-from .modeling_attention import ChoiceAttention, Crossattention
+from .attention import ChoiceAttention, Crossattention
 from torch import nn
 
 device = torch.device("cuda:0")
