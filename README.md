@@ -7,11 +7,11 @@ Brifely, we propose a novel MCQA model by differentiating choices through identi
 
 ## Dependencies
 The main libraries we use as follows.
-transformer==4.38.2
-tqdm==4.65.0
-torch==2.0.0
-rouge==1.0.1
-numpy==1.24.2
+*transformer==4.38.2
+*tqdm==4.65.0
+*torch==2.0.0
+*rouge==1.0.1
+*numpy==1.24.2
 
 ## Data
 If the information in the data is incomplete, please download them in their official website.
