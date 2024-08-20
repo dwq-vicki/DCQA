@@ -39,6 +39,5 @@ Taking the t5-base as language model, run the five datasets as follows.
 * python run_genmc.py --model_path t5-base --choice_num 4 --data_path_train ./data/arc_challenge/in_hourse/train.jsonl  --data_path_dev ./data/arc_challenge/in_hourse/dev.jsonl  --data_path_test ./data/arc_challenge/in_hourse/test.jsonl
 * python run_genmc.py --model_path t5-base --choice_num 8 --data_path_train ./data/qasc/in_hourse/train.jsonl  --data_path_dev ./data/qasc/in_hourse/dev.jsonl  --data_path_test ./data/qasc/in_hourse/test.jsonl
 
-
-
 ## Reference
+Please cite this paper in your publications if it helps your research:
