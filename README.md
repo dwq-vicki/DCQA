@@ -30,14 +30,14 @@ Before running the code, please download the language model (T5-Base, T5-Large, 
 * [Unifiedqa-T5-Large](https://huggingface.co/allenai/unifiedqa-t5-large/tree/main)
 
 Then run this commond to begin trainning.
-* python run_genmc.py --model_path DATA_PATH --choice_num Choice_Num --data_path_train TRAIN_FILE --data_path_dev DEV_FILE --data_path_test TEST_FILE 
+* python main_dcqa.py --model_path DATA_PATH --choice_num Choice_Num --data_path_train TRAIN_FILE --data_path_dev DEV_FILE --data_path_test TEST_FILE 
 
 Taking the t5-base as language model, run the five datasets as follows.
-* python run_genmc.py --model_path t5-base --choice_num 5 --data_path_train ./data/csqa/in_hourse/train.jsonl  --data_path_dev ./data/csqa/in_hourse/dev.jsonl  --data_path_test ./data/csqa/in_hourse/test.jsonl
-* python run_genmc.py --model_path t5-base --choice_num 4 --data_path_train ./data/obqa/train.jsonl  --data_path_dev ./data/obqa/dev.jsonl  --data_path_test ./data/obqa/test.jsonl
-* python run_genmc.py --model_path t5-base --choice_num 4 --data_path_train ./data/arc_easy/in_hourse/train.jsonl  --data_path_dev ./data/arc_easy/in_hourse/dev.jsonl  --data_path_test ./data/arc_easy/in_hourse/test.jsonl
-* python run_genmc.py --model_path t5-base --choice_num 4 --data_path_train ./data/arc_challenge/in_hourse/train.jsonl  --data_path_dev ./data/arc_challenge/in_hourse/dev.jsonl  --data_path_test ./data/arc_challenge/in_hourse/test.jsonl
-* python run_genmc.py --model_path t5-base --choice_num 8 --data_path_train ./data/qasc/in_hourse/train.jsonl  --data_path_dev ./data/qasc/in_hourse/dev.jsonl  --data_path_test ./data/qasc/in_hourse/test.jsonl
+* python main_dcqa.py --model_path t5-base --choice_num 5 --data_path_train ./data/csqa/in_hourse/train.jsonl  --data_path_dev ./data/csqa/in_hourse/dev.jsonl  --data_path_test ./data/csqa/in_hourse/test.jsonl
+* python main_dcqa.py --model_path t5-base --choice_num 4 --data_path_train ./data/obqa/train.jsonl  --data_path_dev ./data/obqa/dev.jsonl  --data_path_test ./data/obqa/test.jsonl
+* python main_dcqa.py --model_path t5-base --choice_num 4 --data_path_train ./data/arc_easy/in_hourse/train.jsonl  --data_path_dev ./data/arc_easy/in_hourse/dev.jsonl  --data_path_test ./data/arc_easy/in_hourse/test.jsonl
+* python main_dcqa.py --model_path t5-base --choice_num 4 --data_path_train ./data/arc_challenge/in_hourse/train.jsonl  --data_path_dev ./data/arc_challenge/in_hourse/dev.jsonl  --data_path_test ./data/arc_challenge/in_hourse/test.jsonl
+* python main_dcqa.py --model_path t5-base --choice_num 8 --data_path_train ./data/qasc/in_hourse/train.jsonl  --data_path_dev ./data/qasc/in_hourse/dev.jsonl  --data_path_test ./data/qasc/in_hourse/test.jsonl
 
 ## Reference
 Please cite this paper in your publications if it helps your research:
